@@ -55,6 +55,23 @@
    margin: 20px;
 }
 
+table {
+   border-collapse: collapse;
+ }
+
+thead tr {
+   background-color: #20A9E5;
+   color: #FFF;
+}
+
+tbody .lightblue-background  {
+   background-color: #B1E5F2;
+}
+
+thead .align {
+   text-align: left;
+}
+
 .yellow-background {
    background-color: yellow;
 }
