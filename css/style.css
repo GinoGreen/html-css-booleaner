@@ -14,10 +14,47 @@
    margin: auto;
    background-color: #4EA0FF;
    background-image: url('../img/pattern.png');
-   background-size: contain;
+   background-size: 30%;
 }
 
 .logo-booleaner {
    width: 20%;
-   margin: 40px 0 0 20px;
+   margin: 8vh 0 0 3vw;
+}
+
+.title {
+   font-size: 25px;
+}
+
+.author-date {
+   color: #7D7D7D;
+}
+
+.author-date a {
+   color: cornflowerblue;
+   text-decoration: none;
+}
+
+.image-tim-berners {
+   margin: 20px 0 0 0;
+}
+
+.image-tim-berners :first-child {
+   width: 54%;
+}
+
+.image-tim-berners :last-child {
+   width: 45.5%;
+}
+
+.description-image {
+   margin-bottom: 20px;
+}
+
+.list, .paragraph {
+   margin: 20px;
+}
+
+.yellow-background {
+   background-color: yellow;
 }
