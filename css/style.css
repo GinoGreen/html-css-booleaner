@@ -1,0 +1,19 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.header-area {
+   width: 70%;
+   height: 17vh;
+   margin: auto;
+   background-color: #4EA0FF;
+   background-image: url('../img/pattern.png');
+   background-size: contain;
+}
+
+.logo-booleaner {
+   width: 20%;
+   margin: 40px 0 0 20px;
+}
