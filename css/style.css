@@ -57,6 +57,7 @@
 
 table {
    border-collapse: collapse;
+   text-align: left;
  }
 
 thead tr {
@@ -64,12 +65,16 @@ thead tr {
    color: #FFF;
 }
 
-tbody .lightblue-background  {
-   background-color: #B1E5F2;
+table .first-column, .second-column {
+   width: 25%;
 }
 
-thead .align {
-   text-align: left;
+table .third-column {
+   width: 50%;
+}
+
+tbody .lightblue-background  {
+   background-color: #B1E5F2;
 }
 
 .yellow-background {
