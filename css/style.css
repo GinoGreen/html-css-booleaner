@@ -7,6 +7,7 @@
 .container {
    width: 70%;
    margin: auto;
+   margin-bottom: 40px;
 }
 
 .header-area {
@@ -22,11 +23,15 @@
    margin: 8vh 0 0 3vw;
 }
 
+main, .paragraph, .related-list {
+   margin: 30px 0;
+}
+
 .title {
    font-size: 25px;
 }
 
-.author-date {
+.author-date, .related-list > h3 {
    color: #7D7D7D;
 }
 
@@ -48,10 +53,14 @@
 }
 
 .description-image {
-   margin-bottom: 20px;
+   font-size: 14px;
 }
 
-.list, .paragraph {
+.paragraph {
+   margin: 30px 0;
+}
+
+.list {
    margin: 20px;
 }
 
@@ -79,4 +88,29 @@ tbody .lightblue-background  {
 
 .yellow-background {
    background-color: yellow;
+}
+
+.related-list > h3 {
+   margin: 10px 0;
+}
+
+.related {
+   width: 311px;
+   height: 207px;
+   margin: 10px 0;
+}
+
+.first-article {
+   background-image: url('../img/monitor.jpg');
+}
+
+.second-article {
+   background-image: url('../img/graph.jpg');
+}
+
+.title-related {
+   padding: 20px;
+   color: #FFF;
+   font-weight: bold;
+   font-size: 22px;
 }
